@@ -1,0 +1,13 @@
+header {
+  border: 1px solid #14283c;
+}
+section article {
+  font-size: 16px;
+  color: #00f;
+}
+.caja {
+  color: #008000;
+}
+#cajaespecial {
+  color: #f00;
+}
