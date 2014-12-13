@@ -1,0 +1,39 @@
+@import 'nib/vendor'
+
+vendor-prefixes= o moz webkit ms
+
+#menu
+	ul 
+		padding 0 
+		background black
+		font-size 0
+		li
+			list-style none
+			display inline-block
+			font-size 16px
+			text-align center
+			transition .2s all linear
+			p
+				transition .2s all linear
+				color white
+				margin 10px 0
+				bottom 0
+				position absolute
+				z-index 2
+				width 100%
+		li:hover
+			font-size 18px
+		li:hover p
+			color #6090D0
+			transform rotate(5deg)
+
+			
+	figure
+		margin 0
+		width 100px
+		height 100px
+		overflow hidden
+		position relative
+		img
+			margin-top  10px
+			width 80%
